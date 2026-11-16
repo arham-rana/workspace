@@ -1,0 +1,13 @@
+node_modules
+data
+.env
+
+# Build output (npm run build)
+public/dist/
+test-results/
+playwright-report/
+
+.DS_Store
+# Rebuilt by npm run build / the Docker build
+public/js/vendor/
+public/vendor/
